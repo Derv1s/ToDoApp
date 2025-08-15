@@ -110,12 +110,12 @@ function deleteAllItems(e) {
 function createItem(newTodo) {
     // li oluşturma
     const li = document.createElement("li");
-    li.className = "list-group-item list-group-item-secondary";
+    li.className = "list-group-item";
     li.appendChild(document.createTextNode(newTodo));
 
     // a tagi oluşturmak
     const a = document.createElement("a");
-    a.classList = "delete-item float-right";
+    a.classList = "text-danger float-right";
     a.setAttribute("href", "#");
     a.innerHTML = '<i class="fas fa-times"></i>';
 
