@@ -10,9 +10,6 @@ const
 
 let todos;
 
-// load items
-loadItems();
-
 //* Load Items Fonksiyonu
 function loadItems() {
     todos = getItemsFromLS();
